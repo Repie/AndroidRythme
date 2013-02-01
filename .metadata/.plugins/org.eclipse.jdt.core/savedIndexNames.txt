@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+C:\Users\Pierre\Documents\GitHub\AndroidRythme\.metadata\.plugins\org.eclipse.jdt.core
-4132012971.index
-3677643703.index
-1356265615.index
-2795372399.index
