@@ -7,3 +7,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\Pierre\Doc
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2013-02-01 10:29:32.202
 !MESSAGE Failed to load properties file for project 'AndroidRythme'
+
+!ENTRY org.eclipse.ui 2 2 2013-02-01 11:14:43.971
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)

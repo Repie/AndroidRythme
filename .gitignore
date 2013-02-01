@@ -1,6 +1,9 @@
 # built application files
 *.apk
 *.ap_
+*.metadata
+.metadata
+/.metadata
 
 # files for the dex VM
 *.dex
