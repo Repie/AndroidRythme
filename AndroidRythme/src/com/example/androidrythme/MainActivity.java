@@ -3,11 +3,18 @@ package com.example.androidrythme;
 import UI.Cercle;
 import UI.CustomCircleView;
 import android.app.Activity;
+<<<<<<< HEAD
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
 import android.widget.TextView;
+=======
+import android.graphics.Color;
+import android.view.Menu;
+import android.widget.RelativeLayout;
+
+>>>>>>> 6c3b2a6919af5a0f738e6cc95672f74ff3cddd51
 
 public class MainActivity extends Activity {
 	
@@ -18,7 +25,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+      //on récupère le layout
+        RelativeLayout lay= (RelativeLayout) RelativeLayout.inflate(this, R.layout.activity_main, null);
+        
+        lay.setBackgroundColor(Color.BLUE);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         Cercle cercle = new  Cercle(300,300,100);             
         custumcercle =(CustomCircleView)findViewById(R.id.Canvas01);       
         custumcercle.setCercleInt(cercle); 
@@ -33,6 +45,10 @@ public class MainActivity extends Activity {
       
     	Log.v("man", "end MAin");
 
+=======
+        
+        
+>>>>>>> 6c3b2a6919af5a0f738e6cc95672f74ff3cddd51
     }
 
     private Runnable mUpdateTimeTask = new Runnable() {
